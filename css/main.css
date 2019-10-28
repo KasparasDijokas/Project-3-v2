@@ -56,7 +56,7 @@ body {
                 display: inline-block;
                 color: white;
                 text-decoration: none;
-                border-bottom: 2px solid rgba(191, 191, 191, .2);
+                border-bottom: 2px solid rgba(191, 191, 191, .3);
             }
 
             footer > span {
