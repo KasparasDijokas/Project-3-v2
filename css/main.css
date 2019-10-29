@@ -1,37 +1,47 @@
-body,
-body * {
-    /* margin: 0;
-    padding: 0; */
-    vertical-align: top;
-    box-sizing: border-box;
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-    word-break: break-all;
-}
 
 body {
     background-color: #809AD7;
-    margin: 0;
     font-family: 'Abel', sans-serif;
+}
+
+.background {
+    background-image: url(../img/hill.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    filter: blur(8px);
 }
 
 .container {
     display: inline-block;
-    width: 1000px;
-    margin-left: calc((100% - 1000px) / 2);
-    margin-top: 40px;
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
     .left {
         display: inline-block;
         width: 40%;
         float: left;
+        background-color: #014CA7;
         background-image: url(../img/hill.png);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 540px;
-        margin-top: 30px;
+        background-position: center;
         color: white;
         position: relative;
+
+        position: absolute;
+        top: 30px;
+        bottom: 30px;
+        left: 0;
+        
     }
 
         h1 {
@@ -48,7 +58,6 @@ body {
             text-align: center;
             position: absolute;
             left: 0;
-            right: 0;
             bottom: 0;
             padding-bottom: 32px;
         }
@@ -74,27 +83,29 @@ body {
     }
 
         .x {
-            display: block;
-            width: 100%;
-            margin: 0;
-            padding-top: 16px;
-            padding-right: 24px;
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+            text-align: center;
+            font-size: 30px;
             color: #C7C7C7;
-            font-size: 1.6em;
             position: absolute;
             top: 0;
-            left: 0;
-            text-align: end;
+            right: 0;
         } 
 
                 .form-row > span {
                     display: inline-block;
-                    line-height: 2;
+                    line-height: 20px;
+                    padding: 10px 0;
+                    margin: 0 20px;
                 }
 
                 .form-row > a {
                     display: inline-block;
-                    line-height: 2;
+                    line-height: 20px;
+                    padding: 10px 0;
                     text-decoration: none;
                     color: blue;
                 }

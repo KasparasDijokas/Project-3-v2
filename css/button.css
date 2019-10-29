@@ -2,8 +2,16 @@
     display: inline-block;
     background-color: blue;
     color: white;
-    padding: 5px 30px;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 10px 40px;
     border-radius: 20px;
-    margin-right: 16px;
-    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid blue;
+    padding: 8px 38px;
 }
